@@ -2245,6 +2245,7 @@ input, select, textarea {
 				-ms-transform: translateZ(1em);
 				transform: translateZ(1em);
 				text-decoration: none;
+				display: inline-block;
 			}
 
 			.image.icon:hover:after {
@@ -2284,10 +2285,14 @@ input, select, textarea {
 		}
 
 		.icon:before {
+			text-decoration: none;
+			display: inline-block;
 			line-height: inherit;
 		}
 
 		.icon.solid:before {
+			text-decoration: none;
+			display: inline-block;
 			font-weight: 900;
 		}
 
