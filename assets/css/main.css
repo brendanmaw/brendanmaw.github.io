@@ -2219,12 +2219,11 @@ input, select, textarea {
 			perspective: 500px;
 		}
 
-			.image.icon:before {
-				/*
+			.image.icon:before {				
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
-				transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;*/
+				transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				display: inline-block;
 				color: #fff;
 				font-size: 6em;
@@ -2240,12 +2239,9 @@ input, select, textarea {
 				z-index: 1;
 			}
 
-			.image.icon:hover:before {
-				/*
+			.image.icon:hover:before {				
 				-moz-transform: translateZ(1em);
-				-webkit-transform: translateZ(1em);
-				-ms-transform: translateZ(1em);
-				*/
+				-webkit-transform: translateZ(1em);				
 				transform: translateZ(1em);
 				text-decoration: none;
 				display: inline-block;
@@ -2269,12 +2265,11 @@ input, select, textarea {
 	}
 
 		.icon:before {
-			/*
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-style: normal;
 			font-variant: normal;
-			/*text-rendering: auto;*/
+			text-rendering: auto;
 			display: inline-block;
 			line-height: 1; 
 			text-decoration: none;
@@ -2302,6 +2297,11 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
+			text-decoration: none;
+			display: inline-block;
+			font-family: 'Font Awesome 5 Brands';
+		}
+		.icon.fab:before {
 			text-decoration: none;
 			display: inline-block;
 			font-family: 'Font Awesome 5 Brands';
