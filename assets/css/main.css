@@ -2244,6 +2244,7 @@ input, select, textarea {
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
 				transform: translateZ(1em);
+				text-decoration: none;
 			}
 
 			.image.icon:hover:after {
