@@ -2297,6 +2297,8 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
+			text-decoration: none;
+			display: inline-block;
 			font-family: 'Font Awesome 5 Brands';
 		}
 
