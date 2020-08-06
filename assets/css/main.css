@@ -2260,6 +2260,7 @@ input, select, textarea {
 
 	.icon {
 		text-decoration: none;
+		display: inline-block;
 		border-bottom: none;
 		position: relative;
 	}
