@@ -2270,8 +2270,8 @@ input, select, textarea {
 			display: inline-block;
 			font-style: normal;
 			font-variant: normal;
-			text-rendering: auto;
-			/* line-height: 1; */
+			/*text-rendering: auto;*/
+			line-height: 1; 
 			text-decoration: none;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
