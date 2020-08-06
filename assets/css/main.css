@@ -2764,6 +2764,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
+				text-decoration: none;
 				border-bottom-color: transparent;
 				color: #4eb980;
 			}
@@ -2796,6 +2797,7 @@ input, select, textarea {
 			margin: 0 0 0.75em 0;
 			text-align: center;
 			width: 2.35em;
+			text-decoration: none;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
