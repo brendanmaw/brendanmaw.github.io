@@ -2220,10 +2220,11 @@ input, select, textarea {
 		}
 
 			.image.icon:before {
+				/*
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
-				transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
+				transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;*/
 				display: inline-block;
 				color: #fff;
 				font-size: 6em;
@@ -2240,9 +2241,11 @@ input, select, textarea {
 			}
 
 			.image.icon:hover:before {
+				/*
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
+				*/
 				transform: translateZ(1em);
 				text-decoration: none;
 				display: inline-block;
