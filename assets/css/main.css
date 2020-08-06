@@ -2479,6 +2479,7 @@ input, select, textarea {
 				border-radius: 100%;
 				border: solid 1px rgba(224, 224, 224, 0.75);
 				display: inline-block;
+				text-decoration: none;
 				height: 2em;
 				line-height: 2em;
 				text-align: center;
