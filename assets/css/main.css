@@ -113,8 +113,7 @@ input, select, textarea {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		
+		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;		
 		color: #4eb980;
 		text-decoration: none;
 	}
