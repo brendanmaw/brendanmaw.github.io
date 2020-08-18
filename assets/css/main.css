@@ -2326,6 +2326,8 @@ input, select, textarea {
 
 		ul.default li {
 			padding-left: 0.5em;
+			text-align: center;
+			width:50%;
 		}
 
 /* Actions */
